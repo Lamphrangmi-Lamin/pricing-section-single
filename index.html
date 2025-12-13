@@ -12,6 +12,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
     <!-- Tailwind CDN allows you to use Tailwind classes immediately in your HTML without any installation steps. 
       If you're not using Tailwind, you may delete the <script> -->
@@ -25,38 +29,62 @@
   </head>
   <body class="bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB]">
     <!-- Add your site or application content here -->
-    <div class="bg-white absolute inset-4 grid grid-cols-4 auto-rows-min gap-x-4 py-12">
+    <div
+      class="bg-white absolute inset-4 grid grid-cols-4 auto-rows-min gap-x-4 py-12 px-4 gap-y-8"
+    >
       <!-- Header section -->
-      <header class="col-span-4">
-        <span class="font-semibold text-indigo-700">One time purchase</span>
-        <h1 class="font-semibold text-3xl text-neutral-900">Pay as you need</h1>
-        <p class="text-lg text-neutral-600">We offer one-time purchases with credits, for you to use as needed. Always active.</p>
+      <header class="col-span-4 pb-8">
+        <span class="font-semibold text-indigo-700 text-center block mb-3"
+          >One time purchase</span
+        >
+        <h1 class="font-semibold text-3xl text-neutral-900 mb-5 text-center">
+          Pay as you need
+        </h1>
+        <p class="text-lg text-neutral-600 text-center">
+          We offer one-time purchases with credits, for you to use as needed.
+          Always active.
+        </p>
       </header>
 
       <!-- Features sections -->
       <section class="col-span-4">
-        <h2 class="text-2xl font-semibold text-neutral-900">Unlock creativity once, enjoy forever</h2>
-        <ul class="text-neutral-600 text-lg">
-          <li>128 available credits for all images</li>
-          <li>Up to 3 users</li>
-          <li>24 hour response time</li>
-          <li>Advanced analytics</li>
+        <h2 class="text-2xl font-semibold text-neutral-900 mb-8">
+          Unlock creativity once, enjoy forever
+        </h2>
+        <ul class="text-neutral-600 text-lg space-y-5">
+          <div class="flex items-center gap-3">
+            <span><i class="ri-check-fill text-indigo-500 text-2xl bg-indigo-50 rounded-full"></i></span>
+            <li>128 available credits for all images</li>
+          </div>
+          <div class="flex items-center gap-3">
+            <span><i class="ri-check-fill text-indigo-500 text-2xl bg-indigo-50 rounded-full"></i></span>
+            <li>Up to 3 users</li>
+          </div>
+          <div class="flex items-center gap-3">
+            <span><i class="ri-check-fill text-indigo-500 text-2xl bg-indigo-50 rounded-full"></i></span>
+            <li>24 hour response time</li>
+          </div>
+          <div class="flex items-center gap-3">
+            <span><i class="ri-check-fill text-indigo-500 text-2xl bg-indigo-50 rounded-full"></i></span>
+            <li>Advanced analytics</li>
+          </div>
         </ul>
       </section>
 
       <!-- Price detail card -->
-      <section class="col-span-4">
-        <div>
-          <div class="">
-            <span class="text-green-700 text-sm bg-green-50">Popular</span>
+      <section class="col-span-4 border border-solid border-neutral-200 p-8 shadow-lg rounded-lg">
+        <div class="flex flex-col gap-8">
+          <div class="flex flex-col items-center gap-2">
+            <span class="text-green-700 text-sm bg-green-50 border border-solid border-green-200 px-2.5 py-1 rounded-full">Popular</span>
             <span class="text-5xl font-semibold text-neutral-900">$699</span>
             <span class="text-sm text-neutral-600">Prices in USD</span>
           </div>
-          <p class="text-xl text-neutral-900">Pay once, use it forever. No strings attached.</p>
-          <button class="bg-indigo-700 font-medium text-whitem">Buy now</button>
+          <p class="text-xl text-center text-neutral-900 px-8">
+            Pay once, use it forever. No strings attached.
+          </p>
+          <button class="bg-indigo-700 font-medium text-white py-2.5 rounded-[4px]">Buy now</button>
         </div>
       </section>
-
     </div>
     <!-- One time purchase
     Pay as you need
