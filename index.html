@@ -30,25 +30,31 @@
   <body class="bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB]">
     <!-- Add your site or application content here -->
     <div
-      class="bg-white absolute inset-4 grid grid-cols-4 auto-rows-min gap-x-4 py-12 px-4 gap-y-8"
+      class="bg-white absolute inset-4 grid grid-cols-4 auto-rows-min gap-x-4 py-12 px-4 gap-y-8
+      md:py-16 md:grid-cols-6 md:gap-x-8 md:gap-y-12"
     >
       <!-- Header section -->
-      <header class="col-span-4 pb-8">
+      <header class="col-span-4 pb-8
+      md:col-span-6 md:pb-4">
         <span class="font-semibold text-indigo-700 text-center block mb-3"
           >One time purchase</span
         >
-        <h1 class="font-semibold text-3xl text-neutral-900 mb-5 text-center">
+        <h1 class="font-semibold text-3xl text-neutral-900 mb-5 text-center
+        md:text-5xl">
           Pay as you need
         </h1>
-        <p class="text-lg text-neutral-600 text-center">
+        <p class="text-lg text-neutral-600 text-center
+        md:text-xl md:max-w-[640px] md:mx-auto">
           We offer one-time purchases with credits, for you to use as needed.
           Always active.
         </p>
       </header>
 
       <!-- Features sections -->
-      <section class="col-span-4">
-        <h2 class="text-2xl font-semibold text-neutral-900 mb-8">
+      <section class="col-span-4
+      md:col-span-6">
+        <h2 class="text-2xl font-semibold text-neutral-900 mb-8
+        md:text-4xl md:mb-16">
           Unlock creativity once, enjoy forever
         </h2>
         <ul class="text-neutral-600 text-lg space-y-5">
@@ -72,14 +78,17 @@
       </section>
 
       <!-- Price detail card -->
-      <section class="col-span-4 border border-solid border-neutral-200 p-8 shadow-lg rounded-lg">
+      <section class="col-span-4 border border-solid border-neutral-200 p-8 shadow-lg rounded-lg
+      md:col-span-6">
         <div class="flex flex-col gap-8">
           <div class="flex flex-col items-center gap-2">
             <span class="text-green-700 text-sm bg-green-50 border border-solid border-green-200 px-2.5 py-1 rounded-full">Popular</span>
-            <span class="text-5xl font-semibold text-neutral-900">$699</span>
+            <span class="text-5xl font-semibold text-neutral-900
+            md:text-6xl">$699</span>
             <span class="text-sm text-neutral-600">Prices in USD</span>
           </div>
-          <p class="text-xl text-center text-neutral-900 px-8">
+          <p class="text-xl text-center text-neutral-900 px-8
+          md:max-w-72 md:mx-auto">
             Pay once, use it forever. No strings attached.
           </p>
           <button class="bg-indigo-700 font-medium text-white py-2.5 rounded-[4px]">Buy now</button>
